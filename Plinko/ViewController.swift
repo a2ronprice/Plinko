@@ -15,5 +15,7 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func poop(_ sender: Any) {
+    }
 }
 

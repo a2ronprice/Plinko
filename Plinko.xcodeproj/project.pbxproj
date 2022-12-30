@@ -14,6 +14,8 @@
 		9346DD1A295939A100EBCCA2 /* Plinko.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9346DD18295939A100EBCCA2 /* Plinko.xcdatamodeld */; };
 		9346DD1C295939A300EBCCA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9346DD1B295939A300EBCCA2 /* Assets.xcassets */; };
 		9346DD1F295939A300EBCCA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9346DD1D295939A300EBCCA2 /* LaunchScreen.storyboard */; };
+		9351C9A3295D0A7800DC0756 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351C9A2295D0A7700DC0756 /* SignUp.swift */; };
+		9351C9A8295E6DE500DC0756 /* WatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351C9A7295E6DE500DC0756 /* WatchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		9346DD1B295939A300EBCCA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9346DD1E295939A300EBCCA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9346DD20295939A300EBCCA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9351C9A2295D0A7700DC0756 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		9351C9A7295E6DE500DC0756 /* WatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,10 @@
 			children = (
 				9346DD0F295939A100EBCCA2 /* AppDelegate.swift */,
 				9346DD11295939A100EBCCA2 /* SceneDelegate.swift */,
+				9351C9A2295D0A7700DC0756 /* SignUp.swift */,
 				9346DD13295939A100EBCCA2 /* ViewController.swift */,
 				9346DD15295939A100EBCCA2 /* Main.storyboard */,
+				9351C9A7295E6DE500DC0756 /* WatchViewController.swift */,
 				9346DD1B295939A300EBCCA2 /* Assets.xcassets */,
 				9346DD1D295939A300EBCCA2 /* LaunchScreen.storyboard */,
 				9346DD20295939A300EBCCA2 /* Info.plist */,
@@ -86,6 +92,8 @@
 			dependencies = (
 			);
 			name = Plinko;
+			packageProductDependencies = (
+			);
 			productName = Plinko;
 			productReference = 9346DD0C295939A100EBCCA2 /* Plinko.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +122,8 @@
 				Base,
 			);
 			mainGroup = 9346DD03295939A100EBCCA2;
+			packageReferences = (
+			);
 			productRefGroup = 9346DD0D295939A100EBCCA2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -145,6 +155,8 @@
 				9346DD14295939A100EBCCA2 /* ViewController.swift in Sources */,
 				9346DD10295939A100EBCCA2 /* AppDelegate.swift in Sources */,
 				9346DD12295939A100EBCCA2 /* SceneDelegate.swift in Sources */,
+				9351C9A8295E6DE500DC0756 /* WatchViewController.swift in Sources */,
+				9351C9A3295D0A7800DC0756 /* SignUp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
