@@ -14,7 +14,7 @@ class WatchViewController: UIViewController, WKNavigationDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let url = URL(string: "https://www.hackingwithswift.com")!
+        let url = URL(string: "https://www.w3schools.com/html/mov_bbb.mp4")!
         webview.load(URLRequest(url: url))
         webview.allowsBackForwardNavigationGestures = false
         // Do any additional setup after loading the view.

@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "DALL·E 2022-12-30 18.30.13 - futuristic arcade background retro gaming video game, colorful, on acid.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "DALL·E 2022-12-30 18.30.13 - futuristic arcade background retro gaming video game, colorful, on acid-1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "DALL·E 2022-12-30 18.30.13 - futuristic arcade background retro gaming video game, colorful, on acid-2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

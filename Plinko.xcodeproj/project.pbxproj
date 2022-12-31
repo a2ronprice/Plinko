@@ -16,6 +16,8 @@
 		9346DD1F295939A300EBCCA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9346DD1D295939A300EBCCA2 /* LaunchScreen.storyboard */; };
 		9351C9A3295D0A7800DC0756 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351C9A2295D0A7700DC0756 /* SignUp.swift */; };
 		9351C9A8295E6DE500DC0756 /* WatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351C9A7295E6DE500DC0756 /* WatchViewController.swift */; };
+		93AB2FB5295F8D0B00C7598C /* ARCADE_I.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 93AB2FB4295F8D0B00C7598C /* ARCADE_I.TTF */; };
+		93AB2FB7295FAAF400C7598C /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AB2FB6295FAAF400C7598C /* PlayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		9346DD20295939A300EBCCA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9351C9A2295D0A7700DC0756 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		9351C9A7295E6DE500DC0756 /* WatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchViewController.swift; sourceTree = "<group>"; };
+		93AB2FB4295F8D0B00C7598C /* ARCADE_I.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = ARCADE_I.TTF; sourceTree = "<group>"; };
+		93AB2FB6295FAAF400C7598C /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +72,12 @@
 				9346DD13295939A100EBCCA2 /* ViewController.swift */,
 				9346DD15295939A100EBCCA2 /* Main.storyboard */,
 				9351C9A7295E6DE500DC0756 /* WatchViewController.swift */,
+				93AB2FB6295FAAF400C7598C /* PlayViewController.swift */,
 				9346DD1B295939A300EBCCA2 /* Assets.xcassets */,
 				9346DD1D295939A300EBCCA2 /* LaunchScreen.storyboard */,
 				9346DD20295939A300EBCCA2 /* Info.plist */,
 				9346DD18295939A100EBCCA2 /* Plinko.xcdatamodeld */,
+				93AB2FB4295F8D0B00C7598C /* ARCADE_I.TTF */,
 			);
 			path = Plinko;
 			sourceTree = "<group>";
@@ -138,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93AB2FB5295F8D0B00C7598C /* ARCADE_I.TTF in Resources */,
 				9346DD1F295939A300EBCCA2 /* LaunchScreen.storyboard in Resources */,
 				9346DD1C295939A300EBCCA2 /* Assets.xcassets in Resources */,
 				9346DD17295939A100EBCCA2 /* Main.storyboard in Resources */,
@@ -156,6 +163,7 @@
 				9346DD10295939A100EBCCA2 /* AppDelegate.swift in Sources */,
 				9346DD12295939A100EBCCA2 /* SceneDelegate.swift in Sources */,
 				9351C9A8295E6DE500DC0756 /* WatchViewController.swift in Sources */,
+				93AB2FB7295FAAF400C7598C /* PlayViewController.swift in Sources */,
 				9351C9A3295D0A7800DC0756 /* SignUp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
