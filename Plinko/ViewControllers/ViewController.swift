@@ -14,8 +14,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
     @IBAction func poop(_ sender: Any) {
+    }
+    
+    override var prefersStatusBarHidden: Bool {
+        return true
     }
 }
 

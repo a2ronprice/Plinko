@@ -32,6 +32,7 @@ class PlayViewController: UIViewController {
         timerLabel.text = String(seconds)
         runTimer()        // Do any additional setup after loading the view.
     }
+    
     override var prefersStatusBarHidden: Bool {
         return true
     }
