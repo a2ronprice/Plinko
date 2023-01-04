@@ -7,9 +7,11 @@
 
 import Foundation
 import UIKit
+import FirebaseCore
+import FirebaseAuth
 
 class PlayViewController: UIViewController {
-
+    
     @IBOutlet var timerLabel: UILabel!
     var timer = Timer()
     var seconds = 20

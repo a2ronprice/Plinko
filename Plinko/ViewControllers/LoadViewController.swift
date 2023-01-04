@@ -12,13 +12,21 @@ import FirebaseAuth
 
 
 class LoadViewController: UIViewController {
+    @IBOutlet var loadingTicker: UIActivityIndicatorView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        do {
+           try Auth.auth().signOut()
+        } catch {
+            print("Sign out failed")
+        }
+
         var returningUser = false
-        
+        loadingTicker.startAnimating()
         DispatchQueue.global().async {
             if let currentUser = Auth.auth().currentUser {
+                print(currentUser.email)
                 returningUser = true
             } else {
                 returningUser = false
@@ -26,29 +34,15 @@ class LoadViewController: UIViewController {
           DispatchQueue.main.async {
               if returningUser {
                   self.performSegue(withIdentifier: "LoadToMain", sender: self)
+                  
               } else {
                   self.performSegue(withIdentifier: "LoadToSignUp", sender: self)
               }
           }
         }
-        
-        // Do any additional setup after loading the view.
-  /*      if let user = Auth.auth().currentUser {
-            print("Segue to Returning User")
-            performSegue(withIdentifier: "LoadToMain", sender: self)
-    }
-        else {
-            print("Segue to Sign Up")
-            performSegue(withIdentifier: "LoadToSignUp", sender: self)
-        }
-   */
-        
-        
     }
     
     override var prefersStatusBarHidden: Bool {
         return true
     }
-    
-    
 }

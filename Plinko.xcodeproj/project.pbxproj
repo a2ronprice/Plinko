@@ -18,6 +18,7 @@
 		9351C9A8295E6DE500DC0756 /* WatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351C9A7295E6DE500DC0756 /* WatchViewController.swift */; };
 		93AB2FB5295F8D0B00C7598C /* ARCADE_I.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 93AB2FB4295F8D0B00C7598C /* ARCADE_I.TTF */; };
 		93AB2FB7295FAAF400C7598C /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AB2FB6295FAAF400C7598C /* PlayViewController.swift */; };
+		93B316492964E5A300E6D76C /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B316482964E5A300E6D76C /* Classes.swift */; };
 		93C0824129637F5D008D4FA8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93C0824029637F5D008D4FA8 /* GoogleService-Info.plist */; };
 		93C08244296380E0008D4FA8 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 93C08243296380E0008D4FA8 /* FirebaseAnalytics */; };
 		93C08246296380E0008D4FA8 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 93C08245296380E0008D4FA8 /* FirebaseAnalyticsOnDeviceConversion */; };
@@ -64,6 +65,7 @@
 		9351C9A7295E6DE500DC0756 /* WatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchViewController.swift; sourceTree = "<group>"; };
 		93AB2FB4295F8D0B00C7598C /* ARCADE_I.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = ARCADE_I.TTF; sourceTree = "<group>"; };
 		93AB2FB6295FAAF400C7598C /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		93B316482964E5A300E6D76C /* Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
 		93C0824029637F5D008D4FA8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		93E0DF8229608D8D0074B399 /* LoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadViewController.swift; sourceTree = "<group>"; };
 		93E0DF8429608DDC0074B399 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				9346DD0F295939A100EBCCA2 /* AppDelegate.swift */,
 				9346DD11295939A100EBCCA2 /* SceneDelegate.swift */,
 				93E0DF8429608DDC0074B399 /* Credentials.swift */,
+				93B316482964E5A300E6D76C /* Classes.swift */,
 				9346DD20295939A300EBCCA2 /* Info.plist */,
 				93C0824029637F5D008D4FA8 /* GoogleService-Info.plist */,
 				9346DD18295939A100EBCCA2 /* Plinko.xcdatamodeld */,
@@ -268,6 +271,7 @@
 			files = (
 				9346DD1A295939A100EBCCA2 /* Plinko.xcdatamodeld in Sources */,
 				9346DD14295939A100EBCCA2 /* ViewController.swift in Sources */,
+				93B316492964E5A300E6D76C /* Classes.swift in Sources */,
 				93E0DF8329608D8D0074B399 /* LoadViewController.swift in Sources */,
 				93E0DF8529608DDC0074B399 /* Credentials.swift in Sources */,
 				9346DD10295939A100EBCCA2 /* AppDelegate.swift in Sources */,

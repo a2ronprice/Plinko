@@ -6,16 +6,26 @@
 //
 
 import UIKit
+import FirebaseCore
+import FirebaseAuth
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        DispatchQueue.global().async {
+            if let currentUser = Auth.auth().currentUser {
+                print("Display name")
+                print(currentUser.displayName)
+            }
+            
+            DispatchQueue.main.async {
+          }
+        }
     }
 
-    @IBAction func poop(_ sender: Any) {
-    }
+    
     
     override var prefersStatusBarHidden: Bool {
         return true
