@@ -9,6 +9,7 @@ import Foundation
 import UIKit
 import FirebaseCore
 import FirebaseAuth
+import Network
 
 
 class LoadViewController: UIViewController {
@@ -16,6 +17,7 @@ class LoadViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        loadingTicker.layer.cornerRadius = 4
         do {
            try Auth.auth().signOut()
         } catch {
@@ -34,7 +36,6 @@ class LoadViewController: UIViewController {
           DispatchQueue.main.async {
               if returningUser {
                   self.performSegue(withIdentifier: "LoadToMain", sender: self)
-                  
               } else {
                   self.performSegue(withIdentifier: "LoadToSignUp", sender: self)
               }
@@ -45,4 +46,5 @@ class LoadViewController: UIViewController {
     override var prefersStatusBarHidden: Bool {
         return true
     }
+    
 }

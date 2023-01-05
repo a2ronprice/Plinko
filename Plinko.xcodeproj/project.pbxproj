@@ -49,6 +49,7 @@
 		93C08278296380E1008D4FA8 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 93C08277296380E1008D4FA8 /* FirebaseStorageCombine-Community */; };
 		93E0DF8329608D8D0074B399 /* LoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E0DF8229608D8D0074B399 /* LoadViewController.swift */; };
 		93E0DF8529608DDC0074B399 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E0DF8429608DDC0074B399 /* Credentials.swift */; };
+		93E72E6429675C4C0021EA6F /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E72E6329675C4C0021EA6F /* InternetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		93C0824029637F5D008D4FA8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		93E0DF8229608D8D0074B399 /* LoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadViewController.swift; sourceTree = "<group>"; };
 		93E0DF8429608DDC0074B399 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		93E72E6329675C4C0021EA6F /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InternetViewController.swift; path = Plinko/InternetViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 		93E0DF8629608DE90074B399 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				93E72E6329675C4C0021EA6F /* InternetViewController.swift */,
 				9346DD13295939A100EBCCA2 /* ViewController.swift */,
 				93E0DF8229608D8D0074B399 /* LoadViewController.swift */,
 				9351C9A7295E6DE500DC0756 /* WatchViewController.swift */,
@@ -279,6 +282,7 @@
 				9351C9A8295E6DE500DC0756 /* WatchViewController.swift in Sources */,
 				93AB2FB7295FAAF400C7598C /* PlayViewController.swift in Sources */,
 				9351C9A3295D0A7800DC0756 /* SignUp.swift in Sources */,
+				93E72E6429675C4C0021EA6F /* InternetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

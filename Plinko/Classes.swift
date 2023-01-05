@@ -14,6 +14,8 @@ class User {
     var lastPlayTime : Date? = nil
     var lastPlayScore : Int = 0
     var totalPlays : Int = 0
+    var allPlayScores = [Int]()
+    var allPlayTimes = [Date?]()
 }
 
 class Play {

@@ -10,19 +10,16 @@ import FirebaseCore
 import FirebaseAuth
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        DispatchQueue.global().async {
-            if let currentUser = Auth.auth().currentUser {
-                print("Display name")
-                print(currentUser.displayName)
-            }
-            
-            DispatchQueue.main.async {
-          }
+
+        if let currentUser = Auth.auth().currentUser {
+            // grab user data from firebase
+        } else {
+            print("failed to load current user")
         }
+            
     }
 
     
