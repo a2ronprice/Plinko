@@ -1,6 +1,10 @@
 import UIKit
 import FirebaseAuth
 import FirebaseCore
+import FirebaseFirestore
+
+var user = User()
+let db = Firestore.firestore()
 
 
 class SignUp: UIViewController {
@@ -44,27 +48,38 @@ class SignUp: UIViewController {
                       print(error.localizedDescription)
                   } else {
                       print("Success changing display name to: ", username)
+                      user.username = username
+                      user.email = email
+                      user.totalPoints = 0
+                      user.totalPlays = 0
+                      user.allPlayTimes = []
+                      user.allPlayScores = []
+                      user.lastPlayTime = nil
+                      user.lastPlayScore = 0
+                      db.collection("users").document(user.email).setData([
+                        "username": user.username,
+                        "total-points": user.totalPoints,
+                        "total-plays": user.totalPlays,
+                        "last-play-time": user.lastPlayTime,
+                        "last-play-score": user.lastPlayScore,
+                        "all-play-times": user.allPlayTimes,
+                        "all-play-scores": user.allPlayScores
+                        
+                      ]) { err in
+                          if let err = err {
+                              print("Error writing document: \(err)")
+                          } else {
+                              print("Document successfully written!")
+                          }
+                      }
+                      
+                      self.performSegue(withIdentifier: "SignUpToMain", sender:self)
                   }
               }
               
               //create user
               //push user to firestore
               
-              var user = User()
-              user.username = username
-              user.email = email
-              user.totalPoints = 0
-              user.totalPlays = 0
-              user.allPlayTimes = []
-              user.allPlayScores = []
-              user.lastPlayTime = nil
-              user.lastPlayScore = 0
-              
-              
-              
-              
-              
-              self.performSegue(withIdentifier: "SignUpToMain", sender:self)
           }
             
         }
