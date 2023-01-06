@@ -210,7 +210,7 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="bnk-BL-3jn" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="cQq-VL-4fo"/>
+                                    <segue destination="bnk-BL-3jn" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Dnt-Gf-RTB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q7k-1a-E6Q">
@@ -341,7 +341,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gcz-8a-0Yi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1676" y="400.74962518740631"/>
+            <point key="canvasLocation" x="1766" y="397"/>
         </scene>
         <!--Watch View Controller-->
         <scene sceneID="p9o-un-O9W">
@@ -384,6 +384,9 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="37"/>
                                     <color key="baseBackgroundColor" red="0.84076189990000005" green="0.29233375189999999" blue="0.1803330779" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="bnk-BL-3jn" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Dmn-BM-fEQ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nGD-dU-4AS"/>
@@ -396,11 +399,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2ea-F6-Xke" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1676" y="-291.00449775112446"/>
+            <point key="canvasLocation" x="1806" y="-394"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="0kS-Bd-CvF"/>
+        <segue reference="0Yb-Dh-Kvz"/>
+        <segue reference="Dnt-Gf-RTB"/>
+        <segue reference="7px-9o-Vre"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="ArcadeBackground" width="202" height="158"/>
