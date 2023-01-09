@@ -77,10 +77,6 @@ class SignUp: UIViewController {
                             self.performSegue(withIdentifier: "SignUpToMain", sender:self)
                         }
                     }
-                    
-                    //create user
-                    //push user to firestore
-                    
                 }
                 
             }
@@ -97,10 +93,11 @@ class SignUp: UIViewController {
     }
     
     func dataIsClean(username: String) -> Bool {
+        if username == "" {return false} // if username is empty - error
         let allowedScalars = CharacterSet.alphanumerics
         for scalar in username.unicodeScalars {
             if allowedScalars.contains(scalar) != true {
-                return false
+                return false // block non-alphanumerics from use in username
             }
         }
         return true
